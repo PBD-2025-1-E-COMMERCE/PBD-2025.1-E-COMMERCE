@@ -1,6 +1,6 @@
 {% load static %}
 
-<header id="header" class="header d-flex align-items-center position-relative" style="background-color: #000;">
+<header id="header" class="header d-flex align-items-center position-relative" style="background-color: #1b1a1a;">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a href="{% if company %}{% url 'ecommerce:company_page' company.id_company %}{% else %}{% url 'ecommerce:index' %}{% endif %}"
